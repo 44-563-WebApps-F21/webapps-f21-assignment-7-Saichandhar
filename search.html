@@ -20,39 +20,119 @@
     <p id="distance"><em>Distance is unknown.</em></p>
     <div class="container">
         <div class="row">
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant1" width="220" height="220" onclick="check(0)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant2" width="220" height="220" onclick="check(1)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant3" width="220" height="220" onclick="check(2)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant4" width="220" height="220" onclick="check(3)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant5" width="220" height="220" onclick="check(4)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant6" width="220" height="220" onclick="check(5)"></div>
         </div>
         <div class="row">
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant7" width="220" height="220" onclick="check(6)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant8" width="220" height="220" onclick="check(7)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant9" width="220" height="220" onclick="check(8)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant10" width="220" height="220" onclick="check(9)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant11" width="220" height="220" onclick="check(10)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant12" width="220" height="220" onclick="check(11)"></div>
         </div>
         <div class="row">
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant13" width="220" height="220" onclick="check(12)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant14" width="220" height="220" onclick="check(13)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant15" width="220" height="220" onclick="check(14)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant16" width="220" height="220" onclick="check(15)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant17" width="220" height="220" onclick="check(16)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant18" width="220" height="220" onclick="check(17)"></div>
         </div>
         <div class="row">
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
-            <div class="col-sm-2"><img src="Bush.jpg" alt="Bush used to hide" width="220" height="220"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant19" width="220" height="220" onclick="check(18)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant20" width="220" height="220" onclick="check(19)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant21" width="220" height="220" onclick="check(20)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant22" width="220" height="220" onclick="check(21)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant23" width="220" height="220" onclick="check(22)"></div>
+            <div class="col-sm-2"><img src="Bush.jpg" id="plant24" width="220" height="220" onclick="check(23)"></div>
         </div>
     </div>
   </div>
+  <script>
+            
+    let variableIds=["plant1","plant2","plant3","plant4","plant5","plant6","plant7","plant8","plant9","plant10","plant11",
+    "plant12","plant13","plant14","plant15","plant16","plant17","plant18","plant19","plant20","plant21","plant22","plant23","plant24"]
+    let triesCount=0;
+    let animalLocation=13;
+ function check(position)
+{
+    console.log(variableIds[position])
+    var id=document.getElementById(variableIds[position])
+    if(position==animalLocation)
+    {
+    id.src="Slowloris.jpg"
+    triesCount+=1;
+    }
+    else
+    {
+    id.src="Hole.jpg"
+    triesCount+=1;
+    }
+    document.getElementById("tries").innerHTML="Number of tries is "+triesCount
+    document.getElementById("distance").innerHTML="Distance is "+distance(position,animalLocation)
+}
+function distance(pos1,pos2)
+{
+    let x1,y1,x2,y2
+    let count1=0;
+    let count2=0;
+    for(i=0;i<4;i++)
+    {
+        for(j=0;j<6;j++)
+        { 
+            if(count1==pos1)
+            {
+                x1=i;
+                y1=j;
+            }
+            count1++;
+        }
+    }
+    for(i=0;i<4;i++)
+    {
+        for(j=0;j<6;j++)
+        { 
+            if(count2==pos2)
+            {
+                x2=i;
+                y2=j;
+            }
+            count2++;
+        }
+    }
+    let hdistance=Math.abs(x1-x2);
+    let vdistance=Math.abs(y1-y2);
+    if(hdistance>vdistance)
+    return hdistance
+    else
+    return vdistance
+
+}
+
+
+ // BONUS
+ function newGame(){
+            triesCount = 0
+            animalLocation = Math.floor(Math.random()*23 + 0)
+            document.getElementById("tries").innerHTML = "Number of tries is 0."
+            for(var i=0; i<24; i++){
+                if(ids[i] == ids[animalLocation])
+                    document.getElementById(ids[i]).src = "Slowloris.jpg"
+                else
+                    document.getElementById(ids[i]).src = "Hole.jpg"
+            }
+    }
+
+
+</script>
 
 </body>
-</html> 
+
+</html>
+
+
